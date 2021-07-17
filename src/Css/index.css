@@ -1,0 +1,96 @@
+:root{
+    --color-Primary:#334257;
+    --color-Secondary:#548CA8;
+    --color-Secondary-Opacity:#548ca8a8;
+    --color-Opcional:#476072;
+    --color-Opcional-Opacity:#47607285;
+    --color-ligth:#EEEEEE;
+}
+
+body{
+    background-color: var(--color-ligth);
+    color:var(--color-Primary);
+}
+
+svg{
+    color:var(--color-Primary);
+}
+
+button svg{
+    color:var(--color-ligth);
+}
+
+h2{
+    font-size: 3rem;
+}
+
+button{
+    text-align: center;
+    border-width: 0px;
+}
+
+/* ====================
+background's
+==================== */
+.bg-alert{
+ background-color: #ff46467a;   
+}
+.bg-success{
+    background-color: #0080001c !important;
+    color: var(--color-Primary); 
+   }
+
+/* ====================
+size
+==================== */
+.vh-100{
+    height: 100vh;
+}
+
+.w-100{
+    width: 100%;
+}
+
+/* ====================
+flex
+==================== */
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.section{
+    height: 100vh;
+}
+
+/* ====================
+Buttons
+==================== */
+
+.btn-primary{
+    background-color: var(--color-Primary);
+    border-width: 0px;
+}
+.btn-primary:hover, .btn-primary:active{
+    background-color: var(--color-Secondary);
+}
+.btn-primary.disabled, .btn-primary:disabled {
+    background-color: #d4d4d4;
+}
+.btn-secondary{
+    background-color: var(--color-Secondary);
+    border-width: 0px;
+}
+.btn-secondary:hover, .btn-secondary:active{
+    background-color: var(--color-Primary);
+}
+
+
+/* ====================
+Shadow's
+==================== */
+.shadow-lg {
+    box-shadow: 0 1rem 1rem var(--color-Primary) !important;
+}

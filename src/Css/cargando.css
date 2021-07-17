@@ -1,0 +1,22 @@
+.cargando{
+    position:absolute;
+    height: 100vh;
+    width: 100%;
+    background-color: #334257d9;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+.cargando h2{
+    text-align: center;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.cargando iframe{
+    border-width:0px ;
+}

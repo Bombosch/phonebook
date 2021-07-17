@@ -1,0 +1,28 @@
+.modal{
+    background-color: #3342579c;
+    position: absolute;
+}
+
+.modal .modal-information{
+    border-radius: 25px;
+    color:var(--color-Primary);
+    background-color: white;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    min-height: 35vh;
+}
+
+.modal .modal-information button{
+color: white;
+background-color: var(--color-Primary);
+padding: 10px;
+border-radius: 25px;
+width: 30%;
+margin-top: 50px;
+margin-bottom: 50px;
+}
+
+.modal .modal-information button:hover{
+    background-color: var(--color-Secondary);
+}

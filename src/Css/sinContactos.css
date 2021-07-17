@@ -1,0 +1,28 @@
+.sin-contactos{
+    flex-direction: column;
+}
+
+.sin-contactos img{
+    width: 35%;
+    filter: grayscale(0.9);
+    margin: auto;
+}
+
+.sin-contactos button, .sin-contactos a{
+    padding: 20px;
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    border-radius: 25px;
+    background-color: var(--color-Primary);
+    color: white;
+}
+
+.sin-contactos a font{
+    margin: auto;
+    text-align: center;
+}
+.sin-contactos a svg{
+    color: white;
+    
+}

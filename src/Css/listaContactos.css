@@ -1,0 +1,48 @@
+.listaContactos{
+    position: relative;
+}
+
+.listaContactos input{
+    border-radius: .25rem;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+}
+
+.listaContactos table td, .listaContactos table th{
+    text-align: center;
+    margin: auto;
+}
+
+
+.listaContactos tbody tr:hover{
+    background-color: var(--color-Opcional-Opacity);
+}
+
+.listaContactos table button{
+    background-color: transparent;
+    text-align: center;
+    margin: auto;
+}
+
+.listaContactos table button svg{
+    color: var(--color-Primary);
+}
+
+.listaContactos .cierra-sesion{
+    position:absolute;
+    top: 2%;
+    right: 1%;
+}
+
+.listaContactos .cierra-sesion button{
+    background-color: #af1010;
+
+}
+
+.listaContactos select{
+    width: 100%;
+    padding: 7px;
+    border-radius: 6px;
+    border-width: 0px;
+}

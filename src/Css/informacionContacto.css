@@ -1,0 +1,33 @@
+.information-contact-container{
+    background-color: var(--color-Secondary-Opacity);
+    border-radius:20px ;
+    position: relative;
+}
+
+
+.information-contact textarea{
+    max-height: 120px;
+    min-height: 60px;
+}
+
+
+.information-contact-container-image{
+    display: inherit;
+    text-align: center;
+}
+
+.information-contact-imagediv{
+    min-height: 500px;
+}
+
+.information-contact-container-image img {
+    display: inherit;
+    object-fit:cover ;
+    width: 70%;
+}
+
+.migaja{
+    position: absolute;
+    top: 2%;
+    left: 2%;
+}
